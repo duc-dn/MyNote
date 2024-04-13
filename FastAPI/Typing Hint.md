@@ -1,5 +1,4 @@
 ## Typing Hint in Python
----
 #### Sự khác nhau giữa Union và Optional
 1. **Optional**:
     
