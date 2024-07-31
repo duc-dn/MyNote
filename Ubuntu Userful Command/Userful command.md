@@ -24,3 +24,8 @@
 sudo su
 ncdu /
 ```
+
+#### 4.
+```
+kubectl get pods -n spark-jobs  --no-headers=true | awk '{print $1}' | grep job-moi |  xargs kubectl -n spark-jobs delete pod
+```
